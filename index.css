@@ -1,0 +1,141 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  margin-top: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.logo {
+  width: auto;
+  height: 45px;
+  margin-left: 20px;
+}
+
+.navbar-item ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.navbar-item ul li {
+  margin-right: 3rem;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.navbar-item ul li:last-child {
+  font-weight: bold;
+  background-color: #131853;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 50px;
+}
+
+.navbar-item ul li:last-child a {
+  color: white !important;
+}
+
+.navbar-item ul li a {
+  color: gray !important;
+  text-decoration: none;
+}
+
+.aplikasi {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  background-color: whitesmoke;
+  padding: 35px;
+  border-radius: 10px;
+}
+
+.store {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.slogan p {
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: #253480;
+}
+
+.playstore {
+  width: 250px;
+  height: auto;
+}
+
+.appstore {
+  width: 250px;
+  height: auto;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feed img {
+  width: 550px;
+  height: auto;
+}
+
+.statistik {
+  margin-left: 60px;
+}
+
+.statistik h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #495057;
+}
+
+.statistik h2 span {
+  color: #253480;
+}
+
+.icon {
+  width: 20px;
+  height: auto;
+  fill: #f1b44c;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.num {
+  font-family: "system-ui", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #253480;
+}
+
+.text {
+  font-family: "system-ui", sans-serif;
+  font-size: 15px;
+  color: #acaaaa;
+}

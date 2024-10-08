@@ -1,0 +1,110 @@
+body {
+  background-image: url(assets/feedjaki.png);
+  background-size: 600px;
+  background-repeat: no-repeat;
+  background-position-x: calc(50% - 250px); /* Adjust the value as needed */
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 550px;
+}
+.login-form {
+  background-color: #2b1c77;
+  padding: 40px;
+  border-radius: 25px;
+  color: white;
+  width: 450px;
+}
+.login-form h2 {
+  margin-top: 0;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: small;
+}
+.form-group input {
+  width: 94%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+.form-group input:focus {
+  outline: none;
+}
+
+.form-group button {
+  width: 20%;
+  padding: 10px;
+  background-color: #0c0853;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.form-footer {
+  margin-top: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.form-footer a {
+  color: white;
+  text-decoration: none;
+  font-size: small;
+}
+.form-footer .forgot-password {
+  margin-top: 30px;
+}
+.form-group-checkbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.form-group-checkbox input {
+  margin-right: 10px;
+}
+.form-group-checkbox label {
+  font-size: small;
+  font-weight: bold;
+}
+.password-wrapper {
+  position: relative;
+}
+.password-wrapper input {
+  padding-right: 40px;
+}
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: white;
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"] {
+  background-color: #1e164e;
+  border: 1px solid #1e164e;
+  color: white;
+}
+
+.error-message {
+  font-size: small;
+  color: red;
+}
